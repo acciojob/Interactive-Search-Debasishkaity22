@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+body{
+	background-color:skyblue;
+}
+.search{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.search input{
+	display:none;
+	 padding: 8px;
+     margin-right: 10px;
+}
+.active input,.active button{
+	display:block;
+}
